@@ -9,4 +9,4 @@
 * **licence.md** &mdash; licencija i informacije za kontakt
 
 ---
-Inačica 2016-10-16
+Inačica 2017-03-01
