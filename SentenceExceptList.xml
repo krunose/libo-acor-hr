@@ -20,6 +20,7 @@
 	<block-list:block block-list:abbreviated-name="aor."/><!-- aorist -->
 	<block-list:block block-list:abbreviated-name="arh."/><!-- arhaično -->
 	<block-list:block block-list:abbreviated-name="arheol."/><!-- arheologija -->
+	<block-list:block block-list:abbreviated-name="arhit."/><!-- arhitektura -->
 	<block-list:block block-list:abbreviated-name="asir."/><!-- asirksi -->
 	<block-list:block block-list:abbreviated-name="asteč."/><!-- astečki -->
 	<block-list:block block-list:abbreviated-name="astron."/><!-- astronomija -->
@@ -56,6 +57,7 @@
 	<block-list:block block-list:abbreviated-name="farm."/><!-- farmacija -->
 	<block-list:block block-list:abbreviated-name="fasc."/><!-- fascikl -->
 	<block-list:block block-list:abbreviated-name="fil."/><!-- filozofija/filološki -->
+	<block-list:block block-list:abbreviated-name="filat."/><!-- filatelija -->
 	<block-list:block block-list:abbreviated-name="fin."/><!-- financijski -->
 	<block-list:block block-list:abbreviated-name="fiz."/><!-- fizika -->
 	<block-list:block block-list:abbreviated-name="fiziol."/><!-- fiziologija -->
@@ -183,6 +185,7 @@
 	<block-list:block block-list:abbreviated-name="psih."/><!-- psihologija -->
 	<block-list:block block-list:abbreviated-name="publ."/><!-- publicistika/publikacija -->
 	<block-list:block block-list:abbreviated-name="r."/><!-- razred -->
+	<block-list:block block-list:abbreviated-name="razg."/><!-- razgovorno -->
 	<block-list:block block-list:abbreviated-name="razr."/><!-- razred -->
 	<block-list:block block-list:abbreviated-name="refer."/><!-- referencijalno -->
 	<block-list:block block-list:abbreviated-name="reg."/><!-- regionalno / registrator -->
