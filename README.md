@@ -20,7 +20,7 @@ Treća je važna datoteka DocumentList.xml u kojoj su definirana pravila zamjene
 
 ---
 
-Najnovija inačica: https://github.com/krunose/libo-acorr-hr
+Repozitorij: https://github.com/krunose/libo-acorr-hr
 
 ---
 
