@@ -11,7 +11,7 @@ Treća je važna datoteka DocumentList.xml u kojoj su definirana pravila zamjene
 ---
 
 * **umetanje-automatskih-ispravaka.md** &mdash; upute kako dodati pravila na računalo za korištenje uz LibreOffice
-* **dokumentacija.md** &mdash; opisane važne datoteke i dokumentirane odluke, potencijalni problemi i sl.
+* **dokumentacija.md** &mdash; opisane važne datoteke, dokumentirane odluke i potencijalni problemi
 * **dodano-na-documentlist.txt** &mdash; popis unosa koji su dodani u datoteku DocumentList.xml mimo osnovnih/inicijalnih
 * **DocumentList.xml** &mdash; pravila za automatsko ispravljanje
 * **SentenceExceptList.xml** &mdash; popis kratica s točkom koje zapravo ne označavaju kraj rečenice
@@ -20,7 +20,7 @@ Treća je važna datoteka DocumentList.xml u kojoj su definirana pravila zamjene
 
 ---
 
-Repozitorij: https://github.com/krunose/libo-acorr-hr
+Repozitorij i kontakt: https://github.com/krunose/libo-acorr-hr
 
 ---
 
