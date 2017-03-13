@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <block-list:block-list xmlns:block-list="http://openoffice.org/2001/block-list">
-<!-- V. https://github.com/Kruno-S/acor_hr-HR-LibreOffice/blob/master/README.md#sentenceexceptlistxml -->
+<!-- V. https://github.com/krunose/libo-acorr-hr/blob/master/dokumentacija.md#sentenceexceptlistxml -->
 	<block-list:block block-list:abbreviated-name="admin."/><!-- administracija -->
 	<block-list:block block-list:abbreviated-name="afr."/><!-- afrički -->
 	<block-list:block block-list:abbreviated-name="agr."/><!-- agronomski -->
