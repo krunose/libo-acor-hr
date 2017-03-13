@@ -1,5 +1,10 @@
 <!-- dodano u DOCUMENTLIST.XML datoteku -->
 
+
+<!-- dodano u inačici 2016-03-13 -->
+  <block-list:block block-list:abbreviated-name=":^10:" block-list:name="¹⁰"/>
+  <block-list:block block-list:abbreviated-name=":_10:" block-list:name="₁₀"/>
+
 <!-- dodano u inačici 2016-12-28 -->
 	<block-list:block block-list:abbreviated-name=":-a:" block-list:name="ā"/>
 	<block-list:block block-list:abbreviated-name=":-e:" block-list:name="ē"/>
