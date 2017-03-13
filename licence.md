@@ -2,7 +2,7 @@
 
 
 ## Licencija
-LGPL/SISSL license, 2016
+GPL 2.0/LGPL 2.1/MPL 1.1 tri-license
 
 ## Doprinositelji
 Krunoslav Šebetić <https://github.com/krunose/libo-acor-hr>
