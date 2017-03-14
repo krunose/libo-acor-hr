@@ -11,6 +11,7 @@ Treća je važna datoteka DocumentList.xml u kojoj su definirana pravila zamjene
 ---
 
 Službena dokumentacija
+
 https://wiki.documentfoundation.org/LibreOffice_Localization_Guide/Advanced_Source_Code_Modifications#Extras
 
 ---
