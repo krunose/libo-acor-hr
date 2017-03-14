@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <block-list:block-list xmlns:block-list="http://openoffice.org/2001/block-list">
 <!-- V. https://github.com/krunose/libo-acorr-hr/blob/master/dokumentacija.md#sentenceexceptlistxml -->
-	<block-list:block block-list:abbreviated-name="admin."/><!-- administracija -->
 	<block-list:block block-list:abbreviated-name="afr."/><!-- afrički -->
 	<block-list:block block-list:abbreviated-name="agr."/><!-- agronomski -->
 	<block-list:block block-list:abbreviated-name="ak."/><!-- akademski -->
@@ -41,6 +40,7 @@
 	<block-list:block block-list:abbreviated-name="č."/><!-- čitaj -->
 	<block-list:block block-list:abbreviated-name="čak."/><!-- čakavski -->
 	<block-list:block block-list:abbreviated-name="čit."/><!-- čitaj -->
+	<block-list:block block-list:abbreviated-name="čl."/><!-- članak -->
 	<block-list:block block-list:abbreviated-name="dem."/><!-- deminutiv -->
 	<block-list:block block-list:abbreviated-name="dijal."/><!-- dijalektalno -->
 	<block-list:block block-list:abbreviated-name="dipl."/><!-- diplomirani -->
@@ -113,8 +113,10 @@
 	<block-list:block block-list:abbreviated-name="kbr."/><!-- kućni broj -->
 	<block-list:block block-list:abbreviated-name="kem."/><!-- kemija -->
 	<block-list:block block-list:abbreviated-name="kinol."/><!-- kinologija -->
+	<block-list:block block-list:abbreviated-name="knj."/><!-- knjiga -->
 	<block-list:block block-list:abbreviated-name="knjiš."/><!-- knjiški -->
 	<block-list:block block-list:abbreviated-name="knjiž."/><!-- književnost -->
+	<block-list:block block-list:abbreviated-name="kom."/><!-- komad -->
 	<block-list:block block-list:abbreviated-name="komp."/><!-- komparativ -->
 	<block-list:block block-list:abbreviated-name="krat."/><!-- kratica -->
 	<block-list:block block-list:abbreviated-name="kršć."/><!-- kršćanstvo/kršćanski -->
@@ -127,6 +129,7 @@
 	<block-list:block block-list:abbreviated-name="log."/><!-- logika [Potencijalno pogrešno zbog jednakog izraza s rječju 'log (od engl. log; tekstualna datoteka i drugo)'] -->
 	<block-list:block block-list:abbreviated-name="lok."/><!-- lokativ -->
 	<block-list:block block-list:abbreviated-name="m."/><!-- muški -->
+	<block-list:block block-list:abbreviated-name="mađ."/><!-- mađarski -->
 	<block-list:block block-list:abbreviated-name="mat."/> <!-- matematički/matematika [Potencijalno pogrešno: 'Zadao mu je mat.'; ali manje vjerojatno] -->
 	<block-list:block block-list:abbreviated-name="metaf."/><!-- metaforično -->
 	<block-list:block block-list:abbreviated-name="meteor."/><!-- meteorologija [Potencijalno pogrešno zbog jednakog izraza s rječju 'meteor'] -->
@@ -151,7 +154,8 @@
 	<block-list:block block-list:abbreviated-name="odn."/><!-- odnosno -->
 	<block-list:block block-list:abbreviated-name="odr."/><!-- određeni lik -->
 	<block-list:block block-list:abbreviated-name="oec."/><!-- [mr.] ekonomije -->
-	<block-list:block block-list:abbreviated-name="opr."/><!-- oprečan/oprečno -->
+	<block-list:block block-list:abbreviated-name="opć."/><!-- općinski -->
+	<block-list:block block-list:abbreviated-name="opr."/><!-- oprečan / oprečno -->
 	<block-list:block block-list:abbreviated-name="orij."/><!-- orijentalno -->
 	<block-list:block block-list:abbreviated-name="osn."/><!-- osnovano -->
 	<block-list:block block-list:abbreviated-name="pat."/><!-- patologija [Potencijalno pogrešno zbog jednakog izraza s riječju 'pat' (termin iz šaha)] -->
@@ -196,6 +200,7 @@
 	<block-list:block block-list:abbreviated-name="rn."/><!-- račun -->
 	<block-list:block block-list:abbreviated-name="rud."/><!-- rudarski -->
 	<block-list:block block-list:abbreviated-name="sc."/><!-- [dr.] znanosti -->
+	<block-list:block block-list:abbreviated-name="sign."/><!-- signatura -->
 	<block-list:block block-list:abbreviated-name="slav."/><!-- slavistički -->
 	<block-list:block block-list:abbreviated-name="slov."/><!-- slovenski -->
 	<block-list:block block-list:abbreviated-name="služb."/><!-- službeno -->
@@ -211,6 +216,7 @@
 	<block-list:block block-list:abbreviated-name="sv."/><!-- sveti / svezak -->
 	<block-list:block block-list:abbreviated-name="svrš."/><!-- sveršeno -->
 	<block-list:block block-list:abbreviated-name="šk."/><!-- školski -->
+	<block-list:block block-list:abbreviated-name="škol."/><!-- školski -->
 	<block-list:block block-list:abbreviated-name="šp."/><!-- španjolski -->
 	<block-list:block block-list:abbreviated-name="tal."/><!-- talijanski -->
 	<block-list:block block-list:abbreviated-name="tehn."/><!-- tehnika -->
@@ -246,6 +252,7 @@
 	<block-list:block block-list:abbreviated-name="zool."/><!-- zoološki -->
 	<block-list:block block-list:abbreviated-name="ž."/><!-- ženski -->
 	<block-list:block block-list:abbreviated-name="žarg."/><!-- žargon/žargonski -->
+<block-list:block block-list:abbreviated-name="admin."/><!-- administracija -->
 	<!-- KRATICE KOJE SU VJEROJATNIJE POGREŠKE I MOGU DOLAZITI NA KRAJU REČENICE - Poneka bi se od njih mogla uključiti ako bi se njezina uporaba kontrolirala provjerom gramatike -->
 	<!-- <block-list:block block-list:abbreviated-name="autom."/> --> <!-- automobilizam [Potencijalno pogrešno zbog jednakog izraza kratice 'autom' s riječju 'autom' (od 'auto')]-->
 	<!-- <block-list:block block-list:abbreviated-name="asist."/> --> <!-- asistent [treba provjeriti može li se pojavljivati na kraju rečenice]-->
@@ -259,6 +266,7 @@
 	<!-- <block-list:block block-list:abbreviated-name="itd."/> --> <!-- i tako dalje [Potencijalno pogrešno jer se kratica 'itd.' vrlo često može naći i na kraju rečenice] -->
 	<!-- <block-list:block block-list:abbreviated-name="kalk."/> --> <!-- kalkulacijski [Potencijalno pogrešno zbog jednakog izraza s riječju 'kalk'] -->
 	<!-- <block-list:block block-list:abbreviated-name="kat."/> --> <!-- katolički [Potencijalno pogrešno zbog jednakog izraza s riječju 'kat'] -->
+	<!-- <block-list:block block-list:abbreviated-name="kut."/> --> <!-- kutija [Potencijalno pogrešno zbog jednakog izraza s riječju 'kut', a češće će se javiti 'kut' na kraju rečenice negoli će se upotrebljavati ova kratica] -->
 	<!-- <block-list:block block-list:abbreviated-name="lokal."/> --> <!-- lokalno [Potencijalno pogrešno zbog jednakog izraza s riječju 'lokal'] -->
 	<!-- <block-list:block block-list:abbreviated-name="lov."/> --> <!-- lovački, lovstvo [Potencijalno pogrešno zbog jednakog izraza s riječju 'lov'] -->
 	<!-- <block-list:block block-list:abbreviated-name="med."/> --> <!-- medicina, medicinski [Potencijalno pogrešno zbog jednakog izraza s riječju 'med' -->
