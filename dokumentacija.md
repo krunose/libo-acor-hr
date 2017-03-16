@@ -38,13 +38,13 @@ Popis se zamjena koje su dodani mimo inicijalnih/standardnih nalazi u datoteci [
 
 
 ## SentenceExceptList.xml
-Točka označava kraj rečenice. LibreOffice automatski riječ iza točke – početak nove rečenice – piše velikim slovom. Međutim, nije svaka točka i znak za kraj rečenice. Problem su kratice i skraćenice iza kojih se piše točka, a nisu napisane na kraju rečenice.
+Točka označava kraj rečenice. LibreOffice automatski riječ iza točke ispravlja iz maloga početnoga slova u veliko. Međutim, nije svaka točka i znak kraja rečenice. Problem su kratice i skraćenice iza kojih se piše točka, a ne označavaju kraj rečenice. Primjer su kratice.
 
 Da bi se spriječilo automatsko ispravljanje malog slova u veliko iza kratica, na ovaj popis treba dodati kratice koje se ne mogu nalaziti na samom kraju rečenice, ili se tamo nalaze vrlo rijetko.
 
-Jasnije će biti na primjeru 'Tako je 2016. god. odlučeno [...]'. Čim korisnik napiše 'odlučeno', LibreOffice će automatski ispraviti 'odlučeno' u 'Odlučeno': 'Tako je 2016. god. Odlučeno [...]'.
+Jasnije će biti na primjeru 'Tako je 2016. god. odlučeno [...]'. Kada se kratica 'god.' ne nalazila na popisu iznimaka ispravljanja maloga slova u veliko, čim bi korisnik napisao 'odlučeno', LibreOffice bi automatski 'odlučeno' ispravio u 'Odlučeno': 'Tako je 2016. god. Odlučeno [...]'.
 
-Ali u ovom slučaju 'god.' ne označava kraj rečenice nego je skraćenica koja pripada rečenici i ne nalazi se na njezinu kraju.
+Uvrštavanjem kratice 'god.' na ovaj popis, LibreOffice ne uzima točku u kratici kao znak kraja rečenice već je ignorira.
 
 Treba biti oprezan i ne uključivati kratice koje su izrazom jednake riječima koje doista i mogu stajati na kraju rečenice: 'čest.' od 'čestica' i 'čest' kao pridjev jer ta riječ može stajati na kraju rečenice.
 
@@ -53,25 +53,17 @@ Potrebno je vagati i provjeravati u jezičnim korpusima. Pitanje je javlja li se
 Iza rednih brojeva LibreOffice ne ispravlja mala slova.
 
 ### Dodatne napomene
-Zanimljivo je to što kratica koja se nalazi na ovom popisu negira kraj rečenica čak i ako prethodna riječ nije na popisu kratica.
+Unosi ove datoteke ne mogu sadržavati razmak, već se svaki dio takve višedijelne kratice mora unijeti posebno, što se ne mora uvijek biti razriješeno na korisnikovo zadovoljstvo.
 
-Na popisu se ne nalazi kratica 'dr.' i za očekivati je da će kratica 'sc.' u 'dr. sc. Marko Markić' biti automatski ispravljena u 'Sc.': 'dr. Sc. Marko Markić' – ali to nije slučaj.
+Problem mogu biti kratice sastavljene od više dijelova kada se neke ili sve dijelove namjerno ne želi unijeti na popis. Tako se 'med.' od 'medicina' ne nalazi na popisu iznimaka za ispravljanje maloga slova u veliko jer 'med' može značiti i 'mêd' (pčelinji proizvod) i u tom slučaju 'med.' bi označavao kraj rečenice i sljedeća bi se riječ trebala pisati velikim slovom. Isto je i s kraticom 'dr.' gdje ona može značiti 'doktor' (znanosti), ali i 'drugo' i u ovoj se drugoj situaciji može naći na kraju rečenice.
 
-Ako se iza kratice 'dr.' (nije na popisu) odmah doda kratica 'sc.' (jest na popisu), ova druga neće biti ispravljena u 'Sc.' jer izgleda da upravo **ona** negira kraj rečenice.
+S obzirom na prethodno, LibreOffice će 'dr. med. vet.' (doktor veterinarske medicine) ispraviti u 'dr. Med. Vet.' jer se 'dr.' i 'med' ne nalaze na ovome popisu. Naravno, riječ iza 'vet.' neće biti automatski ispravljena iz maloga u veliko slovo jer se ta kratica nalazi na ovome popisu. Treba istražiti stoji li češće 'dr.' u značenju 'doktor' (znanosti) u sredini rečenice, ili češće 'i dr.' (i drugo) stoji na kraju rečenice. Znači: postoji opreka između '**dr.** vet. med. Ivan Horvat' te 'Kupili smo kruške, jabuke i dr. Svježe je voće uvijek ukusno.' Dvije različite situacije koje traže dva različita rezultata, a radi se o ista tri znaka. U takvim će se situacijama morati raditi određeni kompromisi. Možda bi se moglo 'dr. Vet. Med' ispraviti u 'dr. vet. med.' koristeći se datotekom DocumentList.xml.
 
-Pogleda li se primjer 'Ovo je kraj. sc. samo radi probe.' vidjet će se da LibreOffice neće automatski ispravljati malo slovo ni u 'sc.' ni u 'samo'.
+Na ovom se popisu nalazi kratica 'sc.' Zanimljivo je to što 'dr. sc.' neće biti automatski ispravljeno u 'dr. Sc.' iako bi se to očekivalo. Prvi bi zaključak mogao biti da je tomu tako jer se kratica 'sc.' nalazi na popisu, međutim nije zbog toga. Ispravljanje se neće dogoditi ni s izmišljenim kraticama: 'gg. tt.' neće biti ispravljeno u 'gg. Tt.' bez obzira što se ni 'gg.' ni 'tt.' ne nalaze na ovome popisu. Ipak, napiše li se 'gg. ttt.', do zamjenjivanja će doći: 'gg. Ttt.' Dalje, zamjena se 'to' u 'To' neće dogoditi ako piše 'Jutros sam... to! Sunčano je.', ali će do zamjene doći ako piše 'Jutros! to!' Očito je važno koji znak prethodi i koliko znakova ima riječ koja slijedi, čak kada se i ne radi o kraticama. Riječ 'to' u navedenom primjer nije kratica i iza nje nije slijedila točka.
 
-Ovo omogućuje da se (do jedne mjere) na popis unose i višedjelne kratice. Korisnik na ovaj popis kroz izbornik 'Alati → Automatsko ispravljanje → Mogućnosti automatskog ispravljanja' u kartici 'Iznimke' ne može dodati 'nar. pj.' s razmakom, a to treba pisati s razmakom.
+Zaključak je da će se, barem dok razvijatelji ne odluče promijene pravila određivanja kraja rečenice, sve višedijelna kratice čiji drugi dio nije veći od dva slova rješavati na zadovoljstvo korisnika bez obzira nalaze li se na ovome popisu ili ne: 'dr. sc.' (doktor znanosti), 'nar. pj.' (narodno pjesništvo), 'pril. pr.' (prilog prošli). Isto će biti i s dvodijelnim kraticama koje su dulje od dva slova a **nalaze se** na ovom popisu: 'pov. umj.' (povijest umjetnosti: obje se kratice nalaze na popisu), prid. trp. (pridjev trpni).
 
-Moguće je iskoristiti što je prethodno izneseno pa na popis dodati samo 'pj.' i kada korisnik napiše 'nar. pj.', mehanizam će automatskog ispravljanja raditi kao da se na popisu nalazi 'nar. pj.'.
-
-Važno je ovo znati jer se u hrvatskom kratice uglavnom pišu s razmacima: [pravila o pisanju kratica](http://pravopis.hr/pravilo/kratice/49/).
-
-Nije jednostavno odrediti čvrste kriterije po kojima bi se jednostavno moglo odlučiti koje kratice uključiti, a koje isključiti. Neke se kratice mogu, ali i ne moraju nalaziti na kraju rečenice. Neke su kratice (metor. od meteorološki ili med. od medicinski) izrazom jednake drugim rječima (med, meteor) i tu treba biti oprezan. Ne preostaje drugo nego se voditi vlastitim jezičnim osjećajem i intuicijom.
-
-Bilo bi dobro kada bi postojao mrežni korpus u kojemu bi se moglo provjeriti javlja li se na kraju rečenice 'med' kao kratica ili kao obična riječ jer bi to olakšalo odluku uvrstiti li tu kraticu na popis ili ju isključiti.
-
-Na kraju se popisa nalaze kratice koje su uzete u obzir, ali nisu uključene na aktivan popis. Čisto da se može usporediti i da se vidi je li se o nekoj kratici već razmišljalo i što se odlučilo.
+U ostalim situacijama treba naći mjeru. Može se ponešto ispraviti dopisivanjem pravila u datoteku DocumentList.xml. Svakako bi pomoglo poznavati točna pravila po kojima LibreOffice definira kraj rečenice, ali trebalo bi i znati za svaku takvu kraticu nalazi li se češće u sredini rečenice ili na kraju.
 
 ### Komentari uz problematične kratice
 
