@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <block-list:block-list xmlns:block-list="http://openoffice.org/2001/block-list">
 <!-- V. https://github.com/krunose/libo-acorr-hr/blob/master/dokumentacija.md#sentenceexceptlistxml -->
+	<block-list:block block-list:abbreviated-name="admin."/><!-- administracija -->
 	<block-list:block block-list:abbreviated-name="afr."/><!-- afrički -->
 	<block-list:block block-list:abbreviated-name="agr."/><!-- agronomski -->
 	<block-list:block block-list:abbreviated-name="ak."/><!-- akademski -->
@@ -178,6 +179,7 @@
 	<block-list:block block-list:abbreviated-name="pravn."/><!-- pravno/pravnički -->
 	<block-list:block block-list:abbreviated-name="pravosl."/><!-- pravoslavno -->
 	<block-list:block block-list:abbreviated-name="pren."/><!-- preneseno -->
+	<block-list:block block-list:abbreviated-name="prenes."/><!-- preneseno -->
 	<block-list:block block-list:abbreviated-name="prez."/><!-- prezent -->
 	<block-list:block block-list:abbreviated-name="prid."/><!-- pridjev -->
 	<block-list:block block-list:abbreviated-name="prij."/><!-- prijedlog -->
@@ -252,7 +254,6 @@
 	<block-list:block block-list:abbreviated-name="zool."/><!-- zoološki -->
 	<block-list:block block-list:abbreviated-name="ž."/><!-- ženski -->
 	<block-list:block block-list:abbreviated-name="žarg."/><!-- žargon/žargonski -->
-<block-list:block block-list:abbreviated-name="admin."/><!-- administracija -->
 	<!-- KRATICE KOJE SU VJEROJATNIJE POGREŠKE I MOGU DOLAZITI NA KRAJU REČENICE - Poneka bi se od njih mogla uključiti ako bi se njezina uporaba kontrolirala provjerom gramatike -->
 	<!-- <block-list:block block-list:abbreviated-name="autom."/> --> <!-- automobilizam [Potencijalno pogrešno zbog jednakog izraza kratice 'autom' s riječju 'autom' (od 'auto')]-->
 	<!-- <block-list:block block-list:abbreviated-name="asist."/> --> <!-- asistent [treba provjeriti može li se pojavljivati na kraju rečenice]-->
