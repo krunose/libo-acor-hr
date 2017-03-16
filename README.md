@@ -10,7 +10,7 @@ Treća je važna datoteka DocumentList.xml u kojoj su definirana pravila zamjene
 
 ---
 
-Službena dokumentacija
+Službena dokumentacija:
 
 https://wiki.documentfoundation.org/LibreOffice_Localization_Guide/Advanced_Source_Code_Modifications#Extras
 
@@ -32,4 +32,4 @@ Repozitorij i kontakt: https://github.com/krunose/libo-acorr-hr
 
 ---
 
-Inačica 2017-03-14
+Inačica 2017-03-16
