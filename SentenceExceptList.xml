@@ -36,6 +36,7 @@
 	<block-list:block block-list:abbreviated-name="arhit."/><!-- arhitektura -->
 	<block-list:block block-list:abbreviated-name="art."/><!-- povijest umjetnosti (univ. bacc. hist. art.) [lat. titula] -->
 	<block-list:block block-list:abbreviated-name="asir."/><!-- asirksi -->
+	<block-list:block block-list:abbreviated-name="asist."/><!-- asistent -->
 	<block-list:block block-list:abbreviated-name="asteč."/><!-- astečki -->
 	<block-list:block block-list:abbreviated-name="astron."/><!-- astronomija -->
 	<block-list:block block-list:abbreviated-name="atr."/>
@@ -225,7 +226,6 @@
 	<block-list:block block-list:abbreviated-name="neutr."/><!-- neutralno -->
 	<block-list:block block-list:abbreviated-name="nizoz."/><!-- nizozemski -->
 	<block-list:block block-list:abbreviated-name="nom."/><!-- nominativ -->
-	<block-list:block block-list:abbreviated-name="nov."/>
 	<block-list:block block-list:abbreviated-name="npr."/><!-- naprimjer -->
 	<block-list:block block-list:abbreviated-name="nro."/><!-- numero -->
 	<block-list:block block-list:abbreviated-name="nutr."/><!-- nutricionizam (mag. nutr.) [lat. titula] -->
@@ -372,7 +372,6 @@
 	<block-list:block block-list:abbreviated-name="žarg."/><!-- žargon/žargonski -->
 	<!-- KRATICE KOJE SU VJEROJATNIJE POGREŠKE I MOGU DOLAZITI NA KRAJU REČENICE - Poneka bi se od njih mogla uključiti ako bi se njezina uporaba kontrolirala provjerom gramatike -->
 	<!-- <block-list:block block-list:abbreviated-name="autom."/> --> <!-- automobilizam [Potencijalno pogrešno zbog jednakog izraza kratice 'autom' s riječju 'autom' (od 'auto')]-->
-	<!-- <block-list:block block-list:abbreviated-name="asist."/> --> <!-- asistent [treba provjeriti može li se pojavljivati na kraju rečenice]-->
 	<!-- <block-list:block block-list:abbreviated-name="čest."/> --> <!-- čestica [Potencijalno pogrešno zbog jednakog izraza s pridjevom 'čest'] -->
 	<!-- <block-list:block block-list:abbreviated-name="D. I."/> --> <!-- Družba Isusova [višedjelna kratica] -->
 	<!-- <block-list:block block-list:abbreviated-name="d. n."/> --> <!-- drugdje nespomenuto [višedjelna kratica] -->
@@ -389,6 +388,7 @@
 	<!-- <block-list:block block-list:abbreviated-name="med."/> --> <!-- medicina, medicinski [Potencijalno pogrešno zbog jednakog izraza s riječju 'med' -->
 	<!-- <block-list:block block-list:abbreviated-name="mit."/> --> <!-- mitologija [Potencijalno pogrešno zbog jednakog izraza s riječju 'mit'] -->
 	<!-- <block-list:block block-list:abbreviated-name="nar. pj."/> --> <!-- narodno pjesništvo [višedjelna kratica; kratica je 'pj.' već uključena na aktivni popis] -->
+	<!-- <block-list:block block-list:abbreviated-name="nov."/> --> <!-- novinarstvo (univ. bacc. nov. et rel. publ.) [lat. titula] [Potencijalno pogrešno zbog jednakog izraza s riječju 'nov' (čest pridjev)] -->
 	<!-- <block-list:block block-list:abbreviated-name="onom."/> --> <!-- onomatopeja [Potencijalno pogrešno zbog jednakog izraza s riječju 'onom'] -->
 	<!-- <block-list:block block-list:abbreviated-name="os."/> --> <!-- osnovna (škola) [Potencijalno pogrešno zbog jednakog izraza s rječju 'os' (matematika)] -->
 	<!-- <block-list:block block-list:abbreviated-name="po. Kr."/> --> <!-- poslije Krista [višedjelna kratica. Potencijalno pogrešno jer se kratica 'po. Kr.' vrlo često može naći i na kraju rečenice] -->
