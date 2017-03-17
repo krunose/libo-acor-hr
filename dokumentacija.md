@@ -65,7 +65,7 @@ Zaključak je da će se, barem dok razvijatelji ne odluče promijene pravila odr
 
 U ostalim situacijama treba naći mjeru. Može se ponešto ispraviti dopisivanjem pravila u datoteku DocumentList.xml. Svakako bi pomoglo poznavati točna pravila po kojima LibreOffice definira kraj rečenice, ali trebalo bi i znati za svaku takvu kraticu nalazi li se češće u sredini rečenice ili na kraju.
 
-Kratice na sveučilištima preuzete s http://narodne-novine.nn.hr/clanci/sluzbeni/2015_05_50_991.html; pristupljeno 17. ožujka 2017.
+Kratice su sveučilišnih titula preuzete s http://narodne-novine.nn.hr/clanci/sluzbeni/2015_05_50_991.html; pristupljeno 17. ožujka 2017.
 
 ### Komentari uz problematične kratice
 
