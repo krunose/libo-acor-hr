@@ -55,7 +55,7 @@ Unosi ove datoteke ne mogu sadržavati razmak, već se svaki dio takve višedije
 
 Problem mogu biti kratice sastavljene od više dijelova kada se neke ili sve dijelove namjerno ne želi unijeti na popis. Tako se 'dr.' od 'doktor' ne nalazi na popisu iznimaka za ispravljanje maloga slova u veliko jer 'dr.' može značiti i 'i drugo' te se u tom značenju često nalazi na samome kraju rečenice.
 
-S obzirom na prethodno, LibreOffice će 'dr. med. vet.' (doktor veterinarske medicine) ispraviti u 'dr. Med. Vet.' jer se 'dr.' i 'med.' ne nalaze na ovome popisu. Naravno, riječ iza 'vet.' neće biti automatski ispravljena iz maloga u veliko slovo jer se ta kratica nalazi na ovome popisu. Treba istražiti stoji li češće 'dr.' u značenju 'doktor' (znanosti) u sredini rečenice, ili češće 'dr.' (i drugo) stoji na kraju rečenice. To su dvije različite situacije koje traže dva različita rezultata, a radi se o ista tri znaka. U takvim će se situacijama morati raditi određeni kompromisi. Možda bi se 'dr. Vet. Med' moglo ispraviti u 'dr. vet. med.' pomoću datoteke [DocumentList.xml](https://github.com/krunose/libo-acorr-hr/blob/master/DocumentList.xml).
+S obzirom na prethodno, LibreOffice će 'dr. med. vet.' (doktor veterinarske medicine) ispraviti u 'dr. Med. Vet.' jer se 'dr.' i 'med.' ne nalaze na ovome popisu. Naravno, riječ iza 'vet.' neće biti automatski ispravljena iz maloga u veliko slovo jer se ta kratica nalazi na ovome popisu. Treba istražiti stoji li češće 'dr.' u značenju 'doktor' (znanosti) u sredini rečenice, ili češće 'dr.' (i drugo) stoji na kraju rečenice. To su dvije različite situacije koje traže dva različita rezultata, a radi se o ista tri znaka. U takvim će se situacijama morati raditi određeni kompromisi. Sada se 'dr. Vet. Med' ispravlja u 'dr. vet. med.' pomoću datoteke [DocumentList.xml](https://github.com/krunose/libo-acorr-hr/blob/master/DocumentList.xml).
 
 Na ovom se popisu nalazi kratica 'sc.' Zanimljivo je to što 'dr. sc.' neće biti automatski ispravljeno u 'dr. Sc.' iako bi se to prema prethodno iznesenomu očekivalo. Prvi bi zaključak mogao biti da je tomu tako jer se kratica 'sc.' nalazi na popisu, međutim nije zbog toga. Ispravljanje se neće dogoditi ni s izmišljenim kraticama: 'gg. tt.' neće biti ispravljeno u 'gg. Tt.' bez obzira što se ni 'gg.' ni 'tt.' ne nalaze na ovome popisu. Ipak, napiše li se 'gg. ttt.', do zamjenjivanja će doći: 'gg. Ttt.' Dalje, zamjena se 'to' u 'To' neće dogoditi ako piše 'Jutros sam... to! Sunčano je.' (> Jutros sam... to! [...]), ali će do zamjene doći piše li 'Jutros! to!' (> Jutros! To!) Očito je važno koji znak prethodi i koliko znakova ima riječ koja slijedi, čak kada se i ne radi o kraticama.
 
@@ -77,6 +77,9 @@ Uvrštavanjem se ove kratice na popis ne kvari funkcionalnost (u najgorem je slu
 Netko može pomisliti kako je ovaj mehanizam dobar za ispravljanje pisanja osobnih imena malim slovom iza kratice 'g.': g. marko > g. Marko. To nije dobro jer lomljenje jedne rečenice na dvije, koje to zapravo nisu, može prevariti provjeru gramatike i time onemogućiti provjeru reda riječi, pisanje zareza ili slično. O velikom i malom slovu treba brinuti provjera pravopisa i provjera gramatike.
 
 Uzme li se u obzir da 'g.' stoji iza 'godina' i za 'gospodin', bolje ju je uključiti nego izostaviti, bez obzira što se u (rijetkim) slučajevima može nalaziti na kraju rečenice.
+
+#### Kratice akademskih stupnjeva
+Opisano u dijelu o datoteci SentenceExceptList.xml u [Dodatnim napomenama](https://github.com/krunose/libo-acorr-hr/blob/master/dokumentacija.md#dodatne-napomene).
 
 
 ## WordExceptList.xml
