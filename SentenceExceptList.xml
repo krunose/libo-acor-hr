@@ -170,6 +170,7 @@
 	<block-list:block block-list:abbreviated-name="knj."/><!-- knjiga -->
 	<block-list:block block-list:abbreviated-name="knjiš."/><!-- knjiški -->
 	<block-list:block block-list:abbreviated-name="knjiž."/><!-- književnost -->
+	<block-list:block block-list:abbreviated-name="kolon."/><!-- kolonijalan -->
 	<block-list:block block-list:abbreviated-name="kom."/><!-- komad -->
 	<block-list:block block-list:abbreviated-name="komp."/><!-- komparativ -->
 	<block-list:block block-list:abbreviated-name="krat."/><!-- kratica -->
@@ -215,6 +216,7 @@
 	<block-list:block block-list:abbreviated-name="museol."/><!-- muzeologija (mag. museol.) [lat. titula] -->
 	<block-list:block block-list:abbreviated-name="musicol."/><!-- muzikologija (univ. bacc. musicol.) [lat. titula] -->
 	<block-list:block block-list:abbreviated-name="musl."/><!-- muslimanski -->
+	<block-list:block block-list:abbreviated-name="nac."/><!-- nacionalno (nac. granice) -->
 	<block-list:block block-list:abbreviated-name="nat."/><!-- priroda [lat. titula] -->
 	<block-list:block block-list:abbreviated-name="naut."/><!-- nautika (univ. bacc. ing. naut.) [lat. titula] -->
 	<block-list:block block-list:abbreviated-name="nav."/><!-- brodogradnja (nav. arch.)  [lat. titula] -->
