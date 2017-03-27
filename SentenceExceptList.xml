@@ -116,6 +116,7 @@
 	<block-list:block block-list:abbreviated-name="geol."/><!-- geologija -->
 	<block-list:block block-list:abbreviated-name="geophys."/><!-- geofizika [lat. titula] -->
 	<block-list:block block-list:abbreviated-name="germ."/><!-- germanistika (njemački jezik) (univ. bacc. philol. germ.) [lat. titula] -->
+	<block-list:block block-list:abbreviated-name="gkt."/><!-- grkokatolički -->
 	<block-list:block block-list:abbreviated-name="gl."/><!-- glagol -->
 	<block-list:block block-list:abbreviated-name="glav."/><!-- glavni -->
 	<block-list:block block-list:abbreviated-name="glazb."/><!-- glazba -->
@@ -249,6 +250,8 @@
 	<block-list:block block-list:abbreviated-name="pčel."/><!-- pčelarstvo -->
 	<block-list:block block-list:abbreviated-name="pejor."/><!-- pejorativno -->
 	<block-list:block block-list:abbreviated-name="petrol."/><!-- naftno rudarstvo (univ. bacc. ing. petrol.) [lat. titula] -->
+	<block-list:block block-list:abbreviated-name="pf."/><!-- perfekt -->
+	<block-list:block block-list:abbreviated-name="ph."/><!-- farmacija [mag. ph.] -->
 	<block-list:block block-list:abbreviated-name="pharm."/><!-- farmacija (u titulama) -->
 	<block-list:block block-list:abbreviated-name="phil."/><!-- filozofija (mag. educ. phys. et phil.) [lat. titula] -->
 	<block-list:block block-list:abbreviated-name="philol."/><!-- filologija (univ. bacc. philol. angl.) [lat. titula] -->
@@ -300,6 +303,9 @@
 	<block-list:block block-list:abbreviated-name="retor."/><!-- retorički -->
 	<block-list:block block-list:abbreviated-name="rib."/><!-- ribarski -->
 	<block-list:block block-list:abbreviated-name="rij."/><!-- rijetko -->
+	<block-list:block block-list:abbreviated-name="rkp."/><!-- starocrkvenoslavenski -->
+	<block-list:block block-list:abbreviated-name="rkt."/><!-- rimokatolički -->
+	<block-list:block block-list:abbreviated-name="rlg."/><!-- religijski -->
 	<block-list:block block-list:abbreviated-name="rn."/><!-- račun -->
 	<block-list:block block-list:abbreviated-name="rud."/><!-- rudarski -->
 	<block-list:block block-list:abbreviated-name="russ."/><!-- rusistika (univ. bacc. philol. russ.) [lat. titula] -->
@@ -317,6 +323,7 @@
 	<block-list:block block-list:abbreviated-name="sred."/><!-- središnji -->
 	<block-list:block block-list:abbreviated-name="srp."/><!-- srpski -->
 	<block-list:block block-list:abbreviated-name="st."/><!-- stoljeće [Potencijalno pogrešno: 'Tako se živjelo u 6. st.'; ali manje vjerojatno] -->
+	<block-list:block block-list:abbreviated-name="stcsl."/><!-- starocrkvenoslavenski -->
 	<block-list:block block-list:abbreviated-name="stom."/><!-- stomatologija -->
 	<block-list:block block-list:abbreviated-name="stsl."/><!-- staroslavenski -->
 	<block-list:block block-list:abbreviated-name="stud."/><!-- studentski -->
