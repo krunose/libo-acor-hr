@@ -32,8 +32,6 @@ U ovu datoteku **treba** dodati ono što je nedvojbeno zatipak i ono što bi nep
 
 Nevolja je u tome što korisnik ne može znati što se sve nalazi na ovom popisu i onaj tko sastavlja popis nikada ne može predvidjeti sve moguće upotrebe. Kao što je već rečeno: bolje izostaviti nego dodatni pogrešno.
 
----
-
 Popis se zamjena koje su dodani mimo inicijalnih/standardnih nalazi u datoteci [dodano.txt](https://github.com/krunose/libo-acor-hr/blob/master/dodano-na-documentlist.txt).
 
 
