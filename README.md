@@ -12,13 +12,13 @@ Treća je važna datoteka `DocumentList.xml` u kojoj su definirana pravila zamje
 
 ---
 
-Službena dokumentacija:
+Službena dokumentacija
 
 https://wiki.documentfoundation.org/LibreOffice_Localization_Guide/Advanced_Source_Code_Modifications#Extras
 
 ---
 
-Sadržaj ovoga repozitorija
+Sadržaj
 
 * **umetanje-automatskih-ispravaka.md** &mdash; upute kako dodati pravila na računalo za korištenje uz LibreOffice
 * **dokumentacija.md** &mdash; opisane važne datoteke, dokumentirane odluke i potencijalni problemi
