@@ -20,13 +20,13 @@ https://wiki.documentfoundation.org/LibreOffice_Localization_Guide/Advanced_Sour
 
 Sadržaj repozitorija
 
-* *`umetanje-automatskih-ispravaka.md`* &mdash; upute kako dodati pravila na računalo za korištenje uz LibreOffice
-* *`dokumentacija.md`* &mdash; opisane važne datoteke, dokumentirane odluke i potencijalni problemi
-* *`dodano-na-documentlist.txt`* &mdash; popis unosa koji su dodani u datoteku DocumentList.xml mimo osnovnih/inicijalnih
-* *`DocumentList.xml`* &mdash; pravila za automatsko ispravljanje
-* *`SentenceExceptList.xml`* &mdash; popis kratica s točkom koje zapravo ne označavaju kraj rečenice
-* *`WordExceptList.xml`* &mdash; popis riječi i kratica koje se pišu s dva velika početna slova
-* *`licence.md`* &mdash; licencija i informacije za kontakt
+* `umetanje-automatskih-ispravaka.md` &mdash; upute kako dodati pravila na računalo za korištenje uz LibreOffice
+* `dokumentacija.md` &mdash; opisane važne datoteke, dokumentirane odluke i potencijalni problemi
+* `dodano-na-documentlist.txt` &mdash; popis unosa koji su dodani u datoteku DocumentList.xml mimo osnovnih/inicijalnih
+* `DocumentList.xml` &mdash; pravila za automatsko ispravljanje
+* `SentenceExceptList.xml` &mdash; popis kratica s točkom koje zapravo ne označavaju kraj rečenice
+* `WordExceptList.xml` &mdash; popis riječi i kratica koje se pišu s dva velika početna slova
+* `licence.md` &mdash; licencija i informacije za kontakt
 
 ---
 
