@@ -358,6 +358,7 @@
 	<block-list:block block-list:abbreviated-name="tzv."/><!-- takozvani -->
 	<block-list:block block-list:abbreviated-name="ucrain."/><!-- ukrajinistike (mag. philol. ucrain.) [lat. titula] -->
 	<block-list:block block-list:abbreviated-name="uč."/><!-- učitelj/učenik -->
+	<block-list:block block-list:abbreviated-name="ugl."/><!-- uglavnom -->
 	<block-list:block block-list:abbreviated-name="ul."/><!-- ulica -->
 	<block-list:block block-list:abbreviated-name="umj."/><!-- umjetnosti -->
 	<block-list:block block-list:abbreviated-name="univ."/><!-- sveučilišni/na (univ. bacc. inf.) [lat. titula] -->
@@ -403,7 +404,7 @@
 	<!-- <block-list:block block-list:abbreviated-name="po. Kr."/> --> <!-- poslije Krista [višedjelna kratica. Potencijalno pogrešno jer se kratica 'po. Kr.' vrlo često može naći i na kraju rečenice] -->
 	<!-- <block-list:block block-list:abbreviated-name="pol."/> --> <!-- politika/politički/politologija [Potencijalno pogrešno zbog jednakog izraza s riječju 'pol'] -->
 	<!-- <block-list:block block-list:abbreviated-name="pov. umj."/> --> <!-- povijest umjetnosti [višedjelna kratica; kratica je 'umj.' već dodana na aktivni popis] -->
-	<!-- <block-list:block block-list:abbreviated-name="pr. Kr."/> --> <!-- prije Krista [višedjelna kratica. Potencijalno pogrešno jer se kratica 'pr Kr.' vrlo često može naći i na kraju rečenice] -->
+	<!-- <block-list:block block-list:abbreviated-name="pr. Kr."/> --> <!-- prije Krista [višedjelna kratica. Potencijalno pogrešno jer se kratica 'pr Kr.' može naći i na kraju rečenice. Ipak, izgleda da je češće u sredini rečenice negoli na samome kraju. Treba razmisliti te na aktivni popis dodati samo 'Kr.' jer je 'pr.' već dodano.] -->
 	<!-- <block-list:block block-list:abbreviated-name="prid. rad."/> --> <!-- pridjev radni [višedjelna kratica; kratica je 'rad.' izrazom jednaka riječju 'rad'] -->
 	<!-- <block-list:block block-list:abbreviated-name="prid. trp."/> --> <!-- pridjev trpni [višedjelna kratica] -->
 	<!-- <block-list:block block-list:abbreviated-name="pril. pr."/> --> <!-- prilog prošli [višedjelna kratica; kratica je 'pr.' već uključena na aktivan popis (radi pr. za prezime)] -->
