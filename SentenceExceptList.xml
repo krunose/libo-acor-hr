@@ -71,6 +71,7 @@
 	<block-list:block block-list:abbreviated-name="čit."/><!-- čitaj -->
 	<block-list:block block-list:abbreviated-name="čl."/><!-- članak -->
 	<block-list:block block-list:abbreviated-name="dacorom."/><!-- rumunski jezik (i knjiž.) (univ. bacc. philol. dacorom.) [lat. titula] -->
+	<block-list:block block-list:abbreviated-name="dalm."/><!-- dalmatinski/ska/sko -->
 	<block-list:block block-list:abbreviated-name="dem."/><!-- deminutiv -->
 	<block-list:block block-list:abbreviated-name="dent."/><!-- dentalni (dr. med. dent.) [lat. titula] -->
 	<block-list:block block-list:abbreviated-name="des."/><!-- modni dizajn (univ. bacc. ing. des. text.) [lat. titula] -->
@@ -78,6 +79,7 @@
 	<block-list:block block-list:abbreviated-name="dijal."/><!-- dijalektalno -->
 	<block-list:block block-list:abbreviated-name="dipl."/><!-- diplomirani -->
 	<block-list:block block-list:abbreviated-name="dosl."/><!-- doslovno -->
+	<block-list:block block-list:abbreviated-name="društv."/><!-- društven/a/o -->
 	<block-list:block block-list:abbreviated-name="educ."/><!-- edukacija (univ. bacc. educ. math.) [lat. titula] -->
 	<block-list:block block-list:abbreviated-name="ekol."/><!-- ekologija -->
 	<block-list:block block-list:abbreviated-name="ekon."/><!-- ekonomija -->
