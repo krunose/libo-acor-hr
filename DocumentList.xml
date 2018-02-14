@@ -1342,4 +1342,65 @@
   <block-list:block block-list:abbreviated-name="zaparvo" block-list:name="zapravo"/>
   <block-list:block block-list:abbreviated-name="iamju" block-list:name="imaju"/>
   <block-list:block block-list:abbreviated-name="paztiti" block-list:name="paziti"/>
+  <block-list:block block-list:abbreviated-name="smao" block-list:name="samo"/>
+  <block-list:block block-list:abbreviated-name="ivša" block-list:name="viša"/>
+  <block-list:block block-list:abbreviated-name="rteći" block-list:name="treći"/>
+  <block-list:block block-list:abbreviated-name="sekotr" block-list:name="sektor"/>
+  <block-list:block block-list:abbreviated-name="znanots" block-list:name="znanost"/>
+  <block-list:block block-list:abbreviated-name="hrvatskgoa" block-list:name="hrvatskoga"/>
+  <block-list:block block-list:abbreviated-name="Ovjde" block-list:name="Ovdje"/>
+  <block-list:block block-list:abbreviated-name="uprai" block-list:name="upari"/>
+  <block-list:block block-list:abbreviated-name="ag" block-list:name="ga"/>
+  <block-list:block block-list:abbreviated-name="pičetku" block-list:name="početku"/>
+  <block-list:block block-list:abbreviated-name="ukljuičo" block-list:name="uključio"/>
+  <block-list:block block-list:abbreviated-name="korisnicma" block-list:name="korisnicima"/>
+  <block-list:block block-list:abbreviated-name="imanuju" block-list:name="imenuju"/>
+  <block-list:block block-list:abbreviated-name="propuštanaj" block-list:name="propuštanja"/>
+  <block-list:block block-list:abbreviated-name="sipravljivo" block-list:name="ispravljivo"/>
+  <block-list:block block-list:abbreviated-name="omdak" block-list:name="odmak"/>
+  <block-list:block block-list:abbreviated-name="Omdak" block-list:name="Odmak"/>
+  <block-list:block block-list:abbreviated-name="predoška" block-list:name="predloška"/>
+  <block-list:block block-list:abbreviated-name="predožak" block-list:name="predložak"/>
+  <block-list:block block-list:abbreviated-name="mornasko" block-list:name="mornarsko"/>
+  <block-list:block block-list:abbreviated-name="Mornasko" block-list:name="Mornarsko"/>
+  <block-list:block block-list:abbreviated-name="predoška" block-list:name="predloška"/>
+  <block-list:block block-list:abbreviated-name="predožak" block-list:name="predložak"/>
+  <block-list:block block-list:abbreviated-name="Predožak" block-list:name="Predložak"/>
+  <block-list:block block-list:abbreviated-name="mroa" block-list:name="mora"/>
+  <block-list:block block-list:abbreviated-name="korz" block-list:name="kroz"/>
+  <block-list:block block-list:abbreviated-name="psotovi" block-list:name="postovi"/>
+  <block-list:block block-list:abbreviated-name="psotova" block-list:name="postova"/>
+  <block-list:block block-list:abbreviated-name="odnsoi" block-list:name="odnosi"/>
+  <block-list:block block-list:abbreviated-name="vće" block-list:name="veće"/>
+  <block-list:block block-list:abbreviated-name="sljedećaga" block-list:name="sljedećega"/>
+  <block-list:block block-list:abbreviated-name="sljedećag" block-list:name="sljedećeg"/>
+  <block-list:block block-list:abbreviated-name="mougće" block-list:name="moguće"/>
+  <block-list:block block-list:abbreviated-name="ozanke" block-list:name="oznake"/>
+  <block-list:block block-list:abbreviated-name="ozanka" block-list:name="oznaka"/>
+  <block-list:block block-list:abbreviated-name="ozankom" block-list:name="oznakom"/>
+  <block-list:block block-list:abbreviated-name="itekla" block-list:name="istekla"/>
+  <block-list:block block-list:abbreviated-name="dokumnet" block-list:name="dokument"/>
+  <block-list:block block-list:abbreviated-name="dokumneta" block-list:name="dokumenta"/>
+  <block-list:block block-list:abbreviated-name="dokumnetu" block-list:name="dokumentu"/>
+  <block-list:block block-list:abbreviated-name="dokumnetom" block-list:name="dokumentom"/>
+  <block-list:block block-list:abbreviated-name="zatp" block-list:name="zato"/>
+  <block-list:block block-list:abbreviated-name="akoj e" block-list:name="ako je"/>
+  <block-list:block block-list:abbreviated-name="ak oje" block-list:name="ako je"/>
+  <block-list:block block-list:abbreviated-name="akoje" block-list:name="ako je"/>
+  <block-list:block block-list:abbreviated-name="privotnoga" block-list:name="privatnoga"/>
+  <block-list:block block-list:abbreviated-name="privotnog" block-list:name="privatnog"/>
+  <block-list:block block-list:abbreviated-name="poronaći" block-list:name="pronaći"/>
+  <block-list:block block-list:abbreviated-name="grešek" block-list:name="greške"/>
+  <block-list:block block-list:abbreviated-name="bolj eimati" block-list:name="bolje imati"/>
+  <block-list:block block-list:abbreviated-name="ovod ruga" block-list:name="ovo druga"/>
+  <block-list:block block-list:abbreviated-name="ovad ruga" block-list:name="ova druga"/>
+  <block-list:block block-list:abbreviated-name="ovajd rugi" block-list:name="ovaj drugi"/>
+  <block-list:block block-list:abbreviated-name="poltiku" block-list:name="politiku"/>
+  <block-list:block block-list:abbreviated-name="vriejme" block-list:name="vrijeme"/>
+  <block-list:block block-list:abbreviated-name="pisanaj" block-list:name="pisanje"/>
+  <block-list:block block-list:abbreviated-name="invetar" block-list:name="inventar"/>
+  <block-list:block block-list:abbreviated-name="invetara" block-list:name="inventara"/>
+  <block-list:block block-list:abbreviated-name="invetaru" block-list:name="inventaru"/>
+  <block-list:block block-list:abbreviated-name="invetarom" block-list:name="inventarom"/>
+  <block-list:block block-list:abbreviated-name="invetarima" block-list:name="inventarima"/>
 </block-list:block-list>
