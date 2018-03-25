@@ -2,8 +2,7 @@
 
 /*
 
-Kruno, 2017.
-kruno.se (on gmx.com)
+Kruno, kruno.se (on gmx.com), 2017.
 
 
 DESCRIPTION
