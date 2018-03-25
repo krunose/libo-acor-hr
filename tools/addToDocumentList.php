@@ -6,11 +6,9 @@ Kruno, 2017.
 kruno.se (on gmx.com)
 
 
-
 DESCRIPTION
 
 	A very simple script to add entries to DocumentList.xml in batches.
-
 
 
 USAGE
@@ -21,13 +19,17 @@ USAGE
 
 	separating these two words with double tab. Leave last line in 'collecting-raw' empty.
 
-	After collecting significant number of replacements, check if last line in 'DocumentList.xml' is empty and add empty line to very end and run if it's not.
+	After collecting significant number of replacements, check if last line in 'DocumentList.xml' is empty and add empty line to the very end of the file if it's not.
 
-	Run script 'addToDocumentList.php.php', e.g:
+	Run script 'addToDocumentList.php', e.g:
 
 		php addToDocumentList.php
 
-	Command should append entries from 'collecting-raw' to the end of 'DocumentList.xml' and clean out 'collecting-raw' leaving it empty. 
+	Command should append entries from 'collecting-raw' to the end of 'DocumentList.xml' and clean out 'collecting-raw' leaving it empty.
+
+	Check this link for more information about how to add such custom 'DocumentList.xml' to LibreOffice
+
+		https://github.com/krunose/libo-acorr-hr/blob/master/umetanje-automatskih-ispravaka.md
 
 */
 
