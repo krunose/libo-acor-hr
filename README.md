@@ -27,6 +27,7 @@ Sadržaj repozitorija
 * `SentenceExceptList.xml` &mdash; popis kratica s točkom koje zapravo ne označavaju kraj rečenice
 * `WordExceptList.xml` &mdash; popis riječi i kratica koje se pišu s dva velika početna slova
 * `licence.md` &mdash; licencija i informacije za kontakt
+* `tools` &mdash; mapa u kojoj se nalaze skripte koje olakšavaju održavanje pravila za automatsko ispravljanje
 
 ---
 
