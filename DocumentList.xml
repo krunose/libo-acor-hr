@@ -1602,4 +1602,16 @@
   <block-list:block block-list:abbreviated-name="prebolikovati" block-list:name="preoblikovati"/>
   <block-list:block block-list:abbreviated-name="prebolikovat" block-list:name="preoblikovat"/>
   <block-list:block block-list:abbreviated-name="strnaice" block-list:name="stranice"/>
+  <block-list:block block-list:abbreviated-name="strnaica" block-list:name="stranica"/>
+  <block-list:block block-list:abbreviated-name="strnaicu" block-list:name="stranicu"/>
+  <block-list:block block-list:abbreviated-name="strnaicama" block-list:name="stranicama"/>
+  <block-list:block block-list:abbreviated-name="zamjevi" block-list:name="zmajevi"/>
+  <block-list:block block-list:abbreviated-name="zamjeva" block-list:name="zmajeva"/>
+  <block-list:block block-list:abbreviated-name="zamjevima" block-list:name="zmajevima"/>
+  <block-list:block block-list:abbreviated-name="zamjeve" block-list:name="zmajeve"/>
+  <block-list:block block-list:abbreviated-name="mišljanja" block-list:name="zmajeve"/>
+  <block-list:block block-list:abbreviated-name="mišljanje" block-list:name="mišljenje"/>
+  <block-list:block block-list:abbreviated-name="mišljanju" block-list:name="mišljenju"/>
+  <block-list:block block-list:abbreviated-name="mišljanjem" block-list:name="mišljenjem"/>
+  <block-list:block block-list:abbreviated-name="mišljanjima" block-list:name="mišljenjima"/>
 </block-list:block-list>
