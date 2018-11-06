@@ -1614,4 +1614,13 @@
   <block-list:block block-list:abbreviated-name="mišljanju" block-list:name="mišljenju"/>
   <block-list:block block-list:abbreviated-name="mišljanjem" block-list:name="mišljenjem"/>
   <block-list:block block-list:abbreviated-name="mišljanjima" block-list:name="mišljenjima"/>
+  <block-list:block block-list:abbreviated-name="rastavjlanje" block-list:name="rastavljanje"/>
+  <block-list:block block-list:abbreviated-name="rastavjlanja" block-list:name="rastavljanja"/>
+  <block-list:block block-list:abbreviated-name="rastavjlanju" block-list:name="rastavljanju"/>
+  <block-list:block block-list:abbreviated-name="rastavjlanjem" block-list:name="rastavljanjem"/>
+  <block-list:block block-list:abbreviated-name="rastavjlanjima" block-list:name="rastavljanjima"/>
+  <block-list:block block-list:abbreviated-name="dalj ei" block-list:name="dalje i"/>
+  <block-list:block block-list:abbreviated-name="psoebno" block-list:name="posebno"/>
+  <block-list:block block-list:abbreviated-name="psoeban" block-list:name="poseban"/>
+  <block-list:block block-list:abbreviated-name="psoebna" block-list:name="posebna"/>
 </block-list:block-list>
