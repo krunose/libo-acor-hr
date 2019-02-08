@@ -7,7 +7,9 @@ Kruno, kruno.se (on gmx.com), 2017.
 
 DESCRIPTION
 
-	A very simple script to add entries to DocumentList.xml in batches.
+	A very simple script to add entries to DocumentList.xml in batches. I'm not a programmer. Use it on your own risk.
+
+		BACKUP EVERYTHING BEFORE PROCEEDING!
 
 
 USAGE
@@ -16,9 +18,13 @@ USAGE
 
 		missplelings		misspellings
 
-	separating these two words with double tab. Leave last line in 'collecting-raw' empty.
+	separating these two words with double tab. Make sure your text processor is not adding spaces for tabs as script expects
+	actual tab character.
 
-	After collecting significant number of replacements, check if last line in 'DocumentList.xml' is empty and add empty line to the very end of the file if it's not.
+	Leave last line in 'collecting-raw' empty.
+
+	After collecting significant number of replacements, check if last line in 'DocumentList.xml' is empty and add empty line
+	to the very end of the file if it's not.
 
 	Run script 'addToDocumentList.php', e.g:
 
@@ -32,7 +38,7 @@ USAGE
 
 */
 
-$inputHandle = fopen("collecting-raw", "r");
+$inputHandle = fopen("../collecting-raw", "r");
 
 $outputContent = "";
 
@@ -58,18 +64,18 @@ $lineNum = 0;
 
 }
 
-$inputHandle = fopen("collecting-raw", "w");
+$inputHandle = fopen("../collecting-raw", "w");
 	fwrite($inputHandle, "");
 		fclose($inputHandle);
 
 
-$outputFile = file_get_contents("DocumentList.xml");
+$outputFile = file_get_contents("../DocumentList.xml");
 
 $outputFile = str_replace("</block-list:block-list>\n", $outputContent, $outputFile);
 
 $outputFile .= $closingLine . "\n";
 
-$outputHandle = fopen("DocumentList.xml", "w");
+$outputHandle = fopen("../DocumentList.xml", "w");
 	fwrite($outputHandle, $outputFile);
 		fclose($outputHandle);
 
