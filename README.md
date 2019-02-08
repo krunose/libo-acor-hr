@@ -35,4 +35,4 @@ Repozitorij i kontakt: https://github.com/krunose/libo-acorr-hr
 
 ---
 
-Inačica 2018-11-06
+Inačica 2018-02-08
