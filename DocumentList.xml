@@ -1631,5 +1631,10 @@
   <block-list:block block-list:abbreviated-name="znka" block-list:name="znak"/>
   <block-list:block block-list:abbreviated-name="zravijati" block-list:name="razvijati"/>
   <block-list:block block-list:abbreviated-name="žeilo" block-list:name="želio"/>
+  <block-list:block block-list:abbreviated-name="an" block-list:name="na"/>
+  <block-list:block block-list:abbreviated-name="progrma" block-list:name="program"/>
+  <block-list:block block-list:abbreviated-name="progrmau" block-list:name="programu"/>
+  <block-list:block block-list:abbreviated-name="progrmai" block-list:name="programi"/>
+  <block-list:block block-list:abbreviated-name="progrmae" block-list:name="programe"/>
+  <block-list:block block-list:abbreviated-name="progrmaima" block-list:name="programima"/>
 </block-list:block-list>
-
