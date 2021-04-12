@@ -1,5 +1,8 @@
 <!-- dodano u DOCUMENTLIST.XML datoteku -->
 
+<!-- uklonjeno 2021-04-12 -->
+  <block-list:block block-list:abbreviated-name="isguran" block-list:name="siguran"/>
+
 <!-- dodano u inačici 2017-12-12 -->
   <block-list:block block-list:abbreviated-name="zaot" block-list:name="zato"/>
   <block-list:block block-list:abbreviated-name="sviejtu" block-list:name="svijetu"/>
